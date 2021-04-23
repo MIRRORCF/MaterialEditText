@@ -3,9 +3,7 @@ package com.mirrorcf.materialedittext
 import android.graphics.Color
 import kotlin.math.sqrt
 
-/**
- * Created by Administrator on 2014/12/12.
- */
+
 object Colors {
 
     fun isLight(color: Int): Boolean {

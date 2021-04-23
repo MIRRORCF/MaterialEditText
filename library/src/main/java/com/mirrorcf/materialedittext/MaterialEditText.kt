@@ -27,14 +27,7 @@ import com.nineoldandroids.animation.ObjectAnimator
 import java.util.*
 import java.util.regex.Pattern
 
-/**
- * EditText in Material Design
- *
- *
- * author:rengwuxian
- *
- *
- */
+
 class MaterialEditText : AppCompatEditText {
     @IntDef(FLOATING_LABEL_NONE, FLOATING_LABEL_NORMAL, FLOATING_LABEL_HIGHLIGHT)
     annotation class FloatingLabelType
@@ -285,12 +278,12 @@ class MaterialEditText : AppCompatEditText {
     private var clearButtonBitmaps: Array<Bitmap>? = null
 
     /**
-     * Clear Button
+     * Secret Button ON
      */
     private var secretOnButtonBitmaps: Array<Bitmap>? = null
 
     /**
-     * Clear Button
+     * Secret Button OFF
      */
     private var secretOffButtonBitmaps: Array<Bitmap>? = null
 

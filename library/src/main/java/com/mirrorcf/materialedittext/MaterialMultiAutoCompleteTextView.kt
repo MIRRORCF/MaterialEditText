@@ -25,9 +25,7 @@ import com.nineoldandroids.animation.ObjectAnimator
 import java.util.*
 import java.util.regex.Pattern
 
-/**
- * Created by rengwuxian on 2015/1/8.
- */
+
 class MaterialMultiAutoCompleteTextView : AppCompatMultiAutoCompleteTextView {
     @IntDef(FLOATING_LABEL_NONE, FLOATING_LABEL_NORMAL, FLOATING_LABEL_HIGHLIGHT)
     annotation class FloatingLabelType
