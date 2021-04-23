@@ -1061,7 +1061,7 @@ class MaterialEditText : AppCompatEditText {
     }
 
     override fun getError(): CharSequence {
-        return tempErrorText!!
+        return tempErrorText ?: ""
     }
 
     /**

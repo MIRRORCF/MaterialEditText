@@ -13,5 +13,6 @@
     <com.mirrorcf.materialedittext.MaterialEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:met_secretButton="true"/>
+        app:met_secretButton="true"
+        app:met_maxCharacters="11"/>
 </LinearLayout>

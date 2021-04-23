@@ -1028,7 +1028,7 @@ class MaterialMultiAutoCompleteTextView : AppCompatMultiAutoCompleteTextView {
     }
 
     override fun getError(): CharSequence {
-        return tempErrorText!!
+        return tempErrorText ?: ""
     }
 
     /**
